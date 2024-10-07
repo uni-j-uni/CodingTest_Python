@@ -1,2 +1,2 @@
 def solution(array):
-    return (sorted(array)[-1], array.index(sorted(array)[-1]))
+    return [max(array), array.index(max(array))]
