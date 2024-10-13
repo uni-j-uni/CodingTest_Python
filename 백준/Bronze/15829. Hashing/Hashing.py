@@ -7,4 +7,4 @@ for ch in s:
     answer += (ord(ch) - 96) * pow(31, i)
     i += 1
 
-print(answer)
+print(answer % 1234567891)
