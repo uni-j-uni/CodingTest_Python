@@ -1,2 +1,2 @@
 def solution(myString):
-    return ''.join(myString.lower())
+    return myString.lower()
