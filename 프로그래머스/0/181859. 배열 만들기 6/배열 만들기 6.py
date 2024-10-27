@@ -6,4 +6,4 @@ def solution(arr):
         elif stk[-1] == arr[i]: del stk[-1]
         else: stk.append(arr[i])
         i += 1
-    return [-1] if not stk else stk
+    return stk or [-1]
